@@ -1,3 +1,6 @@
+// Rule 08. Visibility and Atomicity (VNA)
+// VNA01-J. Ensure visibility of shared references to immutable objects
+
 // Immutable Helper
 public final class Helper {
   private final int n;

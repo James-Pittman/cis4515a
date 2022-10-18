@@ -1,3 +1,6 @@
+// Rule 09. Locking (LCK)
+// LCK08-J. Ensure actively held locks are released on exceptional conditions
+
 public final class Client {
   private final Lock lock = new ReentrantLock();
  
