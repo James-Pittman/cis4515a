@@ -1,11 +1,14 @@
 class MutableClass {
-  private Date d;
+  private Date[] date;
  
   public MutableClass() {
-    d = new Date();
+    date = new Date[20];
+    for (int i = 0; i < date.length; i++) {
+      date[i] = new Date();
+    }
   }
  
-  public Date getDate() {
-    return d;
+  public Date[] getDate() {
+    return date; // Or return date.clone()
   }
 }
