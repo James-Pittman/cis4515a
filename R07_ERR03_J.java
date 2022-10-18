@@ -1,3 +1,6 @@
+// Rule 07. Exceptional Behavior (ERR)
+// ERR03-J. Restore prior object state on method failure
+
 class Dimensions {
   private int length;
   private int width;
